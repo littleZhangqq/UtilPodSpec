@@ -1,0 +1,6 @@
+framework module MyCollectionUtil {
+  umbrella header "MyCollectionUtil-umbrella.h"
+
+  export *
+  module * { export * }
+}
