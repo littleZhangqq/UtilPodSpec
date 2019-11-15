@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '10.0'
   s.requires_arc = true
   s.source       = { :git => "https://github.com/littleZhangqq/UtilPodSpec.git", :tag => "1.0.0"}
-  s.source_files = '/Util/*.{h,m}'
+  s.source_files = 'Util/**/*.{h,m}'
   s.ios.frameworks = 'MobileCoreServices', 'UIKit', 'CoreTelephony'
   s.frameworks = 'Foundation', 'SystemConfiguration'
 end
